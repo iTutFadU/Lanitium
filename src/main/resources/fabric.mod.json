@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "lanitium-cookies",
+	"version": "${version}",
+	"name": "Lanitium Cookies",
+	"description": "A simple Carpet extension for manipulating 1.20.5 cookies",
+	"authors": [
+		"iTut"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/lanitium-cookies",
+		"issues": "https://github.com/iTutFadU/lanitium-cookies/issues",
+		"sources": "https://github.com/iTutFadU/lanitium-cookies"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/lanitium-cookies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.itut.lanitium.cookies.LanitiumCookies"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20.5",
+		"java": ">=21",
+		"fabric-api": "*",
+		"carpet": "*"
+	}
+}
