@@ -1,3 +1,6 @@
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/lanitium-cookies)
+[<img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/iTutFadU/lanitium-cookies)
+
 # Lanitium Cookies
 
 **A simple Carpet extension for manipulating 1.20.5 cookies**
