@@ -10,10 +10,12 @@ Uses [Biscuit!](https://modrinth.com/mod/biscuit!)
 # Functions
 
 ### `cookie(player, callback)`
-Tries to get the cookie (`lanitium:cookie`) from the player. Returns a `lanitium_cookie_future`, see below.
+Requests the cookie (`lanitium:cookie`) from the player. Returns a `lanitium_cookie_future`, see below.
 - `player` - Player for which to get the cookie
-- `callback(player, cookie)` - The function to call when the cookie is got
-    - `cookie` - The cookie. A map from `string` to `nbt`
+- `callback(player, cookie)` - The function to call when the cookie is received
+  
+  If `'set'` is returned, the modified cookie is sent to the player.
+  - `cookie` - The cookie. A map from `string` to `nbt`
 
 ### `cookie_reset(player)`
 Resets the player's cookie to an empty map.
