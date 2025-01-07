@@ -1,4 +1,4 @@
-package me.itut.lanitium.cookies;
+package me.itut.lanitium;
 
 import carpet.script.exception.InternalExpressionException;
 import carpet.script.value.BooleanValue;

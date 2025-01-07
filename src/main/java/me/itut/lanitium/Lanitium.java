@@ -1,4 +1,4 @@
-package me.itut.lanitium.cookies;
+package me.itut.lanitium;
 
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
@@ -10,7 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LanitiumCookies implements ModInitializer, CarpetExtension {
+public class Lanitium implements ModInitializer, CarpetExtension {
 	public static final Logger LOGGER = LoggerFactory.getLogger("Lanitium");
 	public static final Biscuit.RegisteredCookie COOKIE = Biscuit.register(ResourceLocation.fromNamespaceAndPath("lanitium", "cookie"), LanitiumCookie.class);
 
@@ -22,6 +22,6 @@ public class LanitiumCookies implements ModInitializer, CarpetExtension {
 
 	@Override
 	public void onGameStarted() {
-		AnnotationParser.parseFunctionClass(LanitiumCookiesFunctions.class);
+		AnnotationParser.parseFunctionClass(LanitiumFunctions.class);
 	}
 }

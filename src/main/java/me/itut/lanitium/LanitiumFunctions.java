@@ -1,4 +1,4 @@
-package me.itut.lanitium.cookies;
+package me.itut.lanitium;
 
 import carpet.script.CarpetContext;
 import carpet.script.CarpetScriptServer;
@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LanitiumCookiesFunctions {
+public class LanitiumFunctions {
     @ScarpetFunction
     public LanitiumCookieFuture cookie(Context c, EntityValue p, FunctionValue callback) {
         CarpetContext context = (CarpetContext)c;
@@ -59,6 +59,6 @@ public class LanitiumCookiesFunctions {
 
     @ScarpetFunction
     public void cookie_secret(String secret) {
-        LanitiumCookies.COOKIE.setSecret(secret);
+        Lanitium.COOKIE.setSecret(secret);
     }
 }

@@ -1,15 +1,16 @@
-[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/lanitium-cookies)
-[<img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/iTutFadU/lanitium-cookies)
+[<img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">](https://modrinth.com/lanitium)
+[<img alt="github" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_vector.svg">](https://github.com/iTutFadU/lanitium)
 
-# Lanitium Cookies
+# Lanitium
 
-**A simple Carpet extension for manipulating 1.20.5 cookies**
+**A Carpet extension with useful and advanced features**
 
 Uses [Biscuit!](https://modrinth.com/mod/biscuit!)
 
 # Functions
 
-### `cookie(player, callback)`
+### `cookie(player, callback)` Deprecated, for removal (WIP)
+
 Requests the cookie (`lanitium:cookie`) from the player. Returns a `lanitium_cookie_future`, see below.
 - `player` - Player for which to get the cookie
 - `callback(player, cookie)` - The function to call when the cookie is received
@@ -17,10 +18,12 @@ Requests the cookie (`lanitium:cookie`) from the player. Returns a `lanitium_coo
   If `'set'` is returned, the modified cookie is sent to the player.
   - `cookie` - The cookie. A map from `string` to `nbt`
 
-### `cookie_reset(player)`
+### `cookie_reset(player)` Deprecated, for removal (WIP)
+
 Resets the player's cookie to an empty map.
 
-### `cookie_secret(secret)`
+### `cookie_secret(secret)` Deprecated, for removal (WIP)
+
 Sets the cookie secret. Used for validation, apparently.
 - `secret` - The secret string
 
